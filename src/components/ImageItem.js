@@ -4,7 +4,11 @@ function ImageItem({ image }) {
   console.log(image);
   return (
     <div>
-      <img src={image.urls.small} alt={image.alt_description} />
+      <img
+        className="imageListImg"
+        src={image.urls.small}
+        alt={image.alt_description}
+      />
     </div>
   );
 }
